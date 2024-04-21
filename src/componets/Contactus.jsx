@@ -26,7 +26,7 @@ function Contactus({ darkMode }) {
     try {
       const response = await axios.post('https://api.web3forms.com/submit', {
         apikey: 'bb83e68b-4113-4b88-b565-f1956567aa30', 
-        email: 'mohamedalhelo909@gmail.com',
+        email: inputemail,
         subject: 'New Contact Form Submission',
         name: inputname,
         message: inputmassge,

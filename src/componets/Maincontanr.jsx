@@ -47,7 +47,7 @@ import lightmodeimg from '../images/lightmodeimg.png'
 
         <div className='  flex justify-around gap-8 lg:w-full' >
 
-         <h1 className=' pl-4 w-44 md:w-56 relative  lg:p-6 text-3xl md:text-4xl font-bold text-ligtyalow md:p-8 lg:my-auto xl:text-6xl'><img className=' w-full ' src={logoimg} alt="" /></h1>
+         <h1 className=' p-5 mt-2 w-40 md:w-56 relative  lg:p-6 text-3xl md:text-4xl font-bold text-ligtyalow md:p-8 lg:my-auto xl:text-6xl'><img className=' w-full ' src={logoimg} alt="" /></h1>
 
          <div className= 'max-lg:hidden lg:border-[3px] lg:border-ligtyalow lg:rounded-lg lg:w-[75%] lg:h-14  lg:my-auto '>
             <ul className=' lg:flex  lg:justify-evenly  md:text-white lg:font-bold lg:text-xl lg:mt-3'>
