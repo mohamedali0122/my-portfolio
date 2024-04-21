@@ -28,7 +28,7 @@ function Services({darkMode}) {
     Aos.init({ duration: 1000 });
   }, []);
   return (
-    <div ref={servicesRef} className={`${darkMode ? 'bg-darkbg border-b-2 border-t-2 border-primaryblue' : 'bg-secondblue '} w-full py-10  h-auto  flex flex-col items-center pt-3 lg:pt-10 `} >
+    <div ref={servicesRef} className={`${darkMode ? 'bg-darkbg border-b-2  border-primaryblue' : 'bg-secondblue '} w-full py-10  h-auto  flex flex-col items-center pt-3 lg:pt-10 `} >
      <div className='w-full h-7 mb-10 text-center flex justify-center items-center md:h-10' ><p className={` ${darkMode ? 'text-primaryblue  border-primaryblue' : 'text-ligtyalow  border-ligtyalow'}  w-[35%] border-2  rounded-xl md:py-3 md:text-3xl md:font-bold `}> Services</p> </div>    
         
         <div className=' mb-10 w-[90%] flex flex-col items-center text-center gap-3 md:h-[42%] md:flex md:flex-row md:justify-center md:gap-0 '>

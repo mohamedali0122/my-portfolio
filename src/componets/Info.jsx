@@ -76,17 +76,17 @@ function Info({darkMode}) {
 
 
       <div className='md:hidden  flex flex-row items-end justify-center  w-full h-[10%] gap-10 '>
-            <img className='w-[6%] ' src={faecbook} alt="" />
-            <img className='w-[6%] ' src={instgram} alt="" />
-            <img className='w-[6%] ' src={telegram} alt="" />
+            <a className='w-[6%]' href="https://www.facebook.com/profile.php?id=100011355972777&mibextid=JRoKGi"  target='blank'><img className=' w-full cursor-pointer ' src={faecbook} alt="" /></a>
+            <a className='w-[6%]' href="https://www.instagram.com/mo__it?igsh=OHNheTQwY2Z4azky"  target='blank'><img className=' w-full cursor-pointer ' src={instgram} alt="" /></a>
+            <a className='w-[6%]' href="https://t.me/moa_it"  target='blank'><img className=' w-full cursor-pointer ' src={telegram} alt="" /></a>
     </div>
 
    </div>
     
    <div className='hidden  md:flex md:flex-row md:items-end md:justify-center  md:w-full md:h-[10%] md:gap-10 '>
-            <img className='md:w-[4%] lg:w-[3%] ' src={faecbook} alt="" />
-            <img className='md:w-[4%] lg:w-[3%] ' src={instgram} alt="" />
-            <img className='md:w-[4%] lg:w-[3%] ' src={telegram} alt="" />
+            <a className='md:w-[4%] lg:w-[3%] ' href="https://www.facebook.com/profile.php?id=100011355972777&mibextid=JRoKGi"  target='blank'><img className='w-full cursor-pointer' src={faecbook} alt="" /></a>
+            <a className='md:w-[4%] lg:w-[3%]' href="https://www.instagram.com/mo__it?igsh=OHNheTQwY2Z4azky"  target='blank'><img className=' ' src={instgram} alt="w-full cursor-pointer" /></a>
+            <a className='md:w-[4%] lg:w-[3%]' href="https://t.me/moa_it"  target='blank'><img className=' ' src={telegram} alt="w-full cursor-pointer" /></a>
     </div>
 
     </div>
